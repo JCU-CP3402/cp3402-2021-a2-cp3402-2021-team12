@@ -1,2 +1,6 @@
 # cp3402-2021-a2-cp3402-2021-team12
-cp3402-2021-a2-cp3402-2021-team12 created by GitHub Classroom
+Group Members:
+Riya Sen,
+Arifin Sugawa,
+Xu Qingyun,
+Arjun Avr.
