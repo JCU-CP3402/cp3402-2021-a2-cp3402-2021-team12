@@ -1,6 +1,6 @@
 # cp3402-2021-a2-cp3402-2021-team12
 
-Documentation:
+**Documentation**
 
 [deployment.md](https://github.com/JCU-CP3402/cp3402-2021-a2-cp3402-2021-team12/blob/main/deployment.md): 
 
