@@ -35,9 +35,9 @@
 
 1. In Git CMD, direct towards the repository folder in your localhost connected to the main repository on github.
 2. Type:
-~`git lfs install`
-~`git lfs track "*.psd"` (in the " ", we input .zip as the file we need to push.)
-~`git add .gitattributes`
+- ~`git lfs install`
+- ~`git lfs track "*.psd"` (in the " ", we input .zip as the file we need to push.)
+- ~`git add .gitattributes`
 
 
 **Staging:**
@@ -55,7 +55,7 @@ Production- (url)
 
 **Project Management:**
 
-[Trello](https://trello.com/b/5tmYmGPZ/cp3402-cms-group-12)
-[Github](https://github.com/JCU-CP3402/cp3402-2021-a2-cp3402-2021-team12)
-[Slack](https://join.slack.com/t/cp3402cmsgroup12/shared_invite/zt-r0k3n6it-uiaRZiqiPbzo1gOSlsTXnQ)
-[Discord](https://discord.gg/6CsQX2ht)
+- ~[Trello](https://trello.com/b/5tmYmGPZ/cp3402-cms-group-12)
+- ~[Github](https://github.com/JCU-CP3402/cp3402-2021-a2-cp3402-2021-team12)
+- ~[Slack](https://join.slack.com/t/cp3402cmsgroup12/shared_invite/zt-r0k3n6it-uiaRZiqiPbzo1gOSlsTXnQ)
+- ~[Discord](https://discord.gg/6CsQX2ht)
