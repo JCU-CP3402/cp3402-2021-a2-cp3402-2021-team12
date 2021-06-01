@@ -22,3 +22,8 @@
 [**WP Forms Lite**](https://wordpress.org/plugins/wpforms-lite/) : This plugin provided easy drag & drop features to be included in a form and helped keeping our forms tidy with no errors. The Sign-Up form was developed by using this plugin.
 
 ![plugins](https://user-images.githubusercontent.com/61227944/120324720-90b50500-c304-11eb-832e-2b5742e9eb3c.jpg)
+
+## Future Work:
+
+- The Login Page needs to be modified into a proper page for users who have registered via Login Button.
+- Backend needs to worked on for keeping track of users and enabling the site to mail registered users regularly and notifying them about events and new initiatives.
