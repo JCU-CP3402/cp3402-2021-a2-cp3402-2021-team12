@@ -1,0 +1,426 @@
+/*
+Theme Name: Catch Starter 
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Normalize
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigations
+ * 7.0 - Accessibility
+ * 8.0 - Widgets
+ * 9.0 - Content
+ *   9.1 - Header
+ *   9.2 - Posts and pages
+ *   9.3 - Comments
+ *   9.4 - Footer
+ * 10.0 - Media Queries
+ *    10.1 - >= 667px
+ *    10.2 - >= 1024px
+ *    10.3 - >= 1200px
+ */
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+blockquote {
+	border-left: 0;
+	border-right: 4px solid;
+	padding: 0 1.235em 0 0;
+}
+
+
+/**
+ * 3.0 - Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.647em 2.059em 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 4.0 - Padding/Margin
+ */
+
+.menu-toggle .icon,
+.contact-details .icon,
+.entry-meta .icon {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.singular-content-wrap .entry-footer .cat-links a,
+.singular-content-wrap .entry-footer .tags-links a {
+	margin: 0 0 10px 10px;
+}
+
+#search-toggle.menu-toggle .icon,
+#search-toggle-top .icon {
+	margin-left: 0;
+}
+
+
+/**
+ * 5.0 - Forms
+ */
+
+input[type="search"].search-field {
+	border-radius: 0 3px 3px 0;
+	padding-left: 44px;
+	padding-right: auto;
+}
+
+.search-submit:before {
+	left: 1px;
+}
+
+.search-submit {
+	border-radius: 3px 0 0 3px;
+	left: 0;
+	right: auto;
+}
+
+
+/**
+ * 6.0 - Navigation
+ */
+
+.menu-top-toggle {
+	float: left;
+}
+
+.menu-search-top-toggle {
+	float: right;
+}
+
+.main-navigation ul ul {
+	margin-right: 0.875em;
+	margin-left: auto;
+}
+
+.site-navigation .menu-item-has-children > a,
+.main-navigation .menu-item-has-children > a {
+	margin-right: auto;
+	margin-left: 56px;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.dropdown-toggle:after {
+	left: auto;
+	right: 1px;
+}
+
+.header-top-right.top-without-menu {
+    float: left;
+}
+
+
+/**
+ * 7.0 - Accessibility
+ */
+
+.site .skip-link {
+	left: auto;
+	right: -9999em;
+}
+
+.site .skip-link:focus {
+	left: auto;
+	right: 6px;
+}
+
+
+/**
+ * 8.0 - Widgets
+ */
+
+.tagcloud a {
+	margin-right: 0;
+	margin-left: 0.1875em;
+}
+
+
+/**
+ * 9.0 - Content
+ */
+
+/**
+ * 9.1 - Header
+ */
+
+.site-branding {
+	margin-left: auto;
+}
+
+
+/**
+ * 9.2 - Posts and pages
+ */
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+
+/**
+ * 9.3 - Comments
+ */
+
+.comment-list .children > li {
+	padding-right: 0.875em;
+	padding-left: 0;
+}
+
+.comment-author {
+	float: right;
+	margin-right: auto;
+	margin-left: 1.647058823529412em;
+}
+
+.bypostauthor > article .fn:after {
+	left: auto;
+	right: 3px;
+}
+
+.comment-content ul,
+.comment-content ol {
+	margin: 0 1.25em 1.5em 0;
+}
+
+.comment-reply-title small a {
+	float: left;
+}
+
+
+/**
+ * 10.0 - Media Queries
+ */
+
+/**
+ * 10.1 - >= 667px
+ */
+
+@media screen and (min-width: 41.6875em) {
+	.entry-header .entry-meta > span {
+	    margin-left: 21px;
+	    margin-right: auto;
+	}
+
+	.entry-content li > ul,
+	.entry-summary li > ul,
+	.comment-content li > ul,
+	.entry-content blockquote > ul,
+	.entry-summary blockquote > ul,
+	.comment-content blockquote > ul {
+		margin-right: 1.647em;
+		margin-left: auto;
+	}
+
+	.entry-content li > ol,
+	.entry-summary li > ol,
+	.comment-content li > ol,
+	.entry-content blockquote > ol,
+	.entry-summary blockquote > ol,
+	.comment-content blockquote > ol {
+		margin-right: 1.647em;
+		margin-left: auto;
+	}
+
+	.comment-list .children > li {
+		padding-right: 1.75em;
+		padding-left: 0;
+	}
+
+	.author-avatar {
+		float: right;
+		margin-right: 0;
+		margin-left: 35px;
+	}
+
+	.author-info {
+	    text-align: right;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .post-thumbnail,
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .entry-container {
+		direction: rtl;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .post-thumbnail,
+	.excerpt-image-right .has-post-thumbnail .post-wrapper .entry-container {
+		-webkit-box-ordinal-group: 3;
+		-webkit-order: 2;
+		-moz-box-ordinal-group: 3;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+
+	.excerpt-image-left .has-post-thumbnail .post-wrapper .entry-container,
+	.excerpt-image-right .has-post-thumbnail .post-wrapper .post-thumbnail {
+		-webkit-box-ordinal-group: 2;
+		-webkit-order: 1;
+		-moz-box-ordinal-group: 2;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+}
+
+
+/**
+ * 10.2 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	.main-navigation .primary-menu > li {
+		float: right;
+	}
+
+	.main-navigation ul ul {
+		left: auto;
+		margin: 0;
+		right: -999em;
+	}
+
+	.main-navigation li:hover > ul,
+	.main-navigation li.focus > ul {
+		left: 0;
+		right: auto;
+	}
+
+	.main-navigation ul ul li:hover > ul,
+	.main-navigation ul ul li.focus > ul {
+		left: 100%;
+		right: auto;
+	}
+
+	.site-navigation .menu-item-has-children > a,
+	.main-navigation .menu-item-has-children > a {
+		margin: 0;
+	}
+
+	.main-navigation ul ul .menu-item-has-children > a:after {
+		left: 0.5625em;
+		right: auto;
+		top: 0.8125em;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+
+	#site-primary-navigation {
+		margin: 0 0 0 57px;
+	}
+
+	.content-area {
+		float: right;
+		margin-right: auto;
+		margin-left: -100%;
+	}
+
+	.sidebar {
+		float: right;
+		margin-right: 67.10%;
+		margin-left: auto;
+		padding: 0;
+	}
+
+	.site-navigation .menu-item-has-children > a > .icon,
+	.site-navigation .page_item_has_children > a > .icon {
+	    right: 9px;
+	    left: auto;
+	}
+
+	.site-navigation ul ul .menu-item-has-children > a > .icon,
+	.site-navigation ul ul .page_item_has_children > a > .icon {
+		left: 9px;
+		right: auto;
+	}
+
+	.site-navigation .primary-menu ul,
+	.site-navigation .secondary-menu ul,
+	.site-navigation .footer-menu ul {
+		text-align: right;
+	}
+
+	.header-top-right {
+		float: left;
+	}
+
+	#site-top-navigation {
+		float: right;
+	}
+
+	#search-toggle-top .icon,
+	#search-toggle-right .icon {
+		margin-left: 0;
+	}
+}
+
+
+/**
+ * 10.3 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+	.site-branding {
+		margin-right: 21px;
+	}
+
+	.site-branding {
+	    text-align: right;
+	}
+
+	.site-info,
+	.site-footer .footer-navigation,
+	.site-info.two .copyright {
+		margin-left: auto;
+		margin-right: 0;
+	}
+}

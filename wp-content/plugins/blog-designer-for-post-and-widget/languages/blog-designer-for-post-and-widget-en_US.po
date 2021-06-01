@@ -1,0 +1,661 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog Designer - Post and Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 06:44+0000\n"
+"PO-Revision-Date: 2020-12-11 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.6"
+
+#: includes/admin/settings/premium.php:72
+msgid "$0 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:64
+msgid "$20 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:72
+msgid "$499 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:68
+msgid "$99 USD"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:77
+msgid "$999 USD"
+msgstr ""
+
+#: includes/admin/settings/premium.php:128
+msgid "1 Widget"
+msgstr ""
+
+#: includes/admin/settings/premium.php:194
+msgid "1 Year"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:244
+msgid "100% Multilanguage."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:233
+msgid "13 Designs for Blog Post Grid Box."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:227
+msgid "130+ stunning and cool layouts."
+msgstr ""
+
+#: includes/admin/settings/premium.php:98
+msgid "2 - (Post Grid, Post Slider)"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:231
+msgid "24 Designs for Blog Post Masonry Layout."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:230
+msgid "45 Designs for Blog Post Slider/Carousel."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:257
+msgid "5 stars!"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:235
+msgid "5 types of Widgets (Grid, slider and list etc)."
+msgstr ""
+
+#: includes/admin/settings/premium.php:129
+msgid "5 Widgets"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:229
+msgid "50 Designs for Blog Post Grid."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:234
+msgid "8 Designs for Blog Post Grid Box Slider."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:232
+msgid "8 Designs for Blog Post List View."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:228
+msgid "8 Shortcodes."
+msgstr ""
+
+#: includes/admin/settings/premium.php:99
+msgid ""
+"9 - (Post Grid, Post List, Post Slider, Post Carousel, Recent Post, Post "
+"Ticker, Post GridBox, Post GridBox Slider, Post Masonry)"
+msgstr ""
+
+#: includes/admin/settings/premium.php:102
+msgid "Add extra power to the shortcode"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:105
+msgid "All"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:192
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:22
+msgid "Any sort of WP work with no extra cost"
+msgstr ""
+
+#: includes/admin/settings/premium.php:132
+msgid "Arrange your desired post with your desired order and display"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:119
+msgid "Ascending"
+msgstr ""
+
+#: includes/admin/settings/premium.php:187
+msgid "Automatic Update "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:23
+msgid "Blog Designer"
+msgstr ""
+
+#. Name of the plugin
+msgid "Blog Designer - Post and Widget"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "Blog Designer - Post and Widget - Features"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:240
+msgid "Blog display with categories."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:195
+msgid "Blog Grid Shortcode"
+msgstr ""
+
+#: templates/grid/design-1.php:52 templates/grid/design-2.php:40
+#: templates/slider/design-1.php:28 templates/slider/design-2.php:30
+msgid "By"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:99
+msgid "Category"
+msgstr ""
+
+#: includes/admin/class-bdpw-admin.php:90
+msgid "Category ID"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:205
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:239
+msgid "Custom Read More link for Blog Post."
+msgstr ""
+
+#: includes/admin/settings/premium.php:147
+msgid "Custom Read More link for Post "
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:23
+msgid "Dedicated expert working only for you!"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:207
+msgid "Demo for Designs"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:118
+msgid "Descending"
+msgstr ""
+
+#: includes/admin/settings/premium.php:92
+msgid "Designs "
+msgstr ""
+
+#: includes/admin/settings/premium.php:92
+msgid "Designs that make your website better"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:93
+msgid "Display Category"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:86
+msgid "Display Date"
+msgstr ""
+
+#: includes/admin/settings/premium.php:152
+msgid "Display Desired Post "
+msgstr ""
+
+#: includes/admin/settings/premium.php:152
+msgid "Display only the post you want"
+msgstr ""
+
+#: includes/admin/settings/premium.php:157
+msgid "Display only the posts with particular category"
+msgstr ""
+
+#: includes/admin/settings/premium.php:172
+msgid "Display post according to date, title and etc"
+msgstr ""
+
+#: includes/admin/settings/premium.php:157
+msgid "Display Post for Particular Categories "
+msgstr ""
+
+#: includes/admin/settings/premium.php:117
+msgid "Display post in a masonry view"
+msgstr ""
+
+#: includes/admin/settings/premium.php:112
+msgid "Display post in a Ticker view"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Display Post on your website with 2 designs(Grid and Slider) with 1 widget. "
+"Also work with Gutenberg shortcode block."
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:27
+msgid "Displayed Latest WP Post in list view "
+msgstr ""
+
+#: includes/admin/settings/premium.php:167
+msgid "Do not display the posts for particular categories"
+msgstr ""
+
+#: includes/admin/settings/premium.php:162
+msgid "Do not display the posts you want"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:206
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:241
+msgid ""
+"Drag & Drop feature to display Blog post in your desired order and other 6 "
+"types of order parameter."
+msgstr ""
+
+#: includes/admin/settings/premium.php:132
+msgid "Drag &amp; Drop Post Order Change "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:257
+msgid "Enjoyed this plugin? You can help by rate this plugin"
+msgstr ""
+
+#: includes/admin/settings/premium.php:167
+msgid "Exclude Some Categories "
+msgstr ""
+
+#: includes/admin/settings/premium.php:162
+msgid "Exclude Some Posts "
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:139
+msgid "False"
+msgstr ""
+
+#: includes/admin/settings/premium.php:71
+msgid "Free"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:246
+msgid ""
+"Gain access to <strong>Blog Designer - Post and Widget Pro</strong> included "
+"in <br /><strong>Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/settings/premium.php:76
+#: includes/admin/settings/premium.php:86
+msgid ""
+"Gain access to <strong>Blog Designer - Post and Widget</strong> included in "
+"<br /><strong>Essential Plugin Bundle"
+msgstr ""
+
+#: includes/admin/settings/premium.php:187
+msgid "Get automatic  plugin updates "
+msgstr ""
+
+#: includes/admin/settings/premium.php:192
+msgid "Get support for plugin"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:166
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:247
+msgid "Go Premium "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:236
+msgid "Gutenberg Block Support."
+msgstr ""
+
+#: includes/admin/settings/premium.php:137
+msgid "Gutenberg Block Supports "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:254
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:18
+msgid "Highlight of Hiring:"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:20
+msgid "Hire once, get unlimited jobs done"
+msgstr ""
+
+#: includes/admin/class-bdpw-admin.php:43
+#: includes/admin/settings/hire-us.php:84
+#: includes/admin/settings/hire-us.php:85
+#: includes/admin/settings/hire-us.php:86
+#: includes/admin/settings/hire-us.php:87
+msgid "Hire Us"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:15
+msgid "Hire Us - Get unlimited expert WordPress Support and Development"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:63
+msgid "Hire us for 1 Hr"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:71
+msgid "Hire us for 30 Hrs"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:67
+msgid "Hire us for 5 Hrs"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:76
+msgid "Hire us for 70 Hrs"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:119
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:158
+msgid "How It Works - Display and Shortcode"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:180
+msgid "How Shortcode Works"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com/"
+msgstr ""
+
+#: blog-designer-post-and-widget.php:162
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:28
+#: includes/widget/latest-post-widget.php:32
+msgid "Latest Blog Post List"
+msgstr ""
+
+#: includes/admin/settings/premium.php:188
+#: includes/admin/settings/premium.php:189
+msgid "Lifetime"
+msgstr ""
+
+#: includes/admin/settings/premium.php:193
+msgid "Limited"
+msgstr ""
+
+#: includes/admin/settings/premium.php:117
+msgid "Masonry View "
+msgstr ""
+
+#: includes/admin/settings/premium.php:177
+msgid "Multiple Slider Parameters "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:202
+msgid "Need Support?"
+msgstr ""
+
+#: includes/bdpw-functions.php:141 includes/shortcode/wpsp-post.php:154
+msgid "Next"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:78
+msgid "Number of Items"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:115
+#: includes/widget/latest-post-widget.php:124
+msgid "Order"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:73
+#: includes/admin/settings/premium.php:77
+msgid "Our most valuable package!"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:122
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/admin/settings/premium.php:122
+msgid ""
+"Play with all shortcode parameters with preview panel. No documentation "
+"required!!"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:129
+msgid "Post Author"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:127
+msgid "Post Date"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:128
+msgid "Post ID"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:131
+msgid "Post Modified Date"
+msgstr ""
+
+#: includes/admin/settings/premium.php:172
+msgid "Post Order / Order By Parameters "
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:130
+msgid "Post Title"
+msgstr ""
+
+#: includes/admin/settings/premium.php:75
+msgid "Premium"
+msgstr ""
+
+#: includes/bdpw-functions.php:140 includes/shortcode/wpsp-post.php:155
+msgid "Previous"
+msgstr ""
+
+#: includes/admin/settings/hire-us.php:21
+msgid "Quick ticket support, quick solution"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:132
+msgid "Random"
+msgstr ""
+
+#: templates/grid/design-1.php:67 templates/grid/design-2.php:64
+#: templates/slider/design-1.php:37 templates/slider/design-2.php:43
+msgid "Read More"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:196
+msgid "Recent Post Slider Shortcode"
+msgstr ""
+
+#: includes/admin/settings/premium.php:147
+msgid "Redirect post to third party destination if any"
+msgstr ""
+
+#: includes/shortcode/wpsp-post.php:128
+#: includes/shortcode/wpsp-recent-post-slider.php:134
+msgid "Replies"
+msgstr ""
+
+#: includes/shortcode/wpsp-post.php:128
+#: includes/shortcode/wpsp-recent-post-slider.php:134
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/settings/premium.php:122
+msgid "Shortcode Generator "
+msgstr ""
+
+#: includes/admin/settings/premium.php:102
+msgid "Shortcode Parameters "
+msgstr ""
+
+#: includes/admin/settings/premium.php:97
+msgid "Shortcode provide output to the front-end side"
+msgstr ""
+
+#: includes/admin/settings/premium.php:97
+msgid "Shortcodes "
+msgstr ""
+
+#: includes/admin/settings/premium.php:177
+msgid "Slider parameters like autoplay, number of slide, sider dots and etc."
+msgstr ""
+
+#: includes/admin/settings/premium.php:182
+msgid "Slider RTL Support "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:243
+msgid "Slider RTL support."
+msgstr ""
+
+#: includes/admin/settings/premium.php:182
+msgid "Slider supports for RTL website"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:184
+msgid "Step-1. Create a page like Blog"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:170
+msgid "Step-1. Go to \"Post --> Add New\"."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:171
+msgid "Step-2. Add post title, description and images"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:185
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:172
+msgid "Step-3. Select Category and Tags"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:137
+msgid "Sticky Posts"
+msgstr ""
+
+#: includes/admin/settings/premium.php:192
+msgid "Support "
+msgstr ""
+
+#: includes/shortcode/wpsp-post.php:126
+msgid "Tags:"
+msgstr ""
+
+#: includes/shortcode/wpsp-recent-post-slider.php:132
+msgid "Tags: "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:237
+msgid "Template overriding feature support."
+msgstr ""
+
+#: blog-designer-post-and-widget.php:161
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:104
+msgid ""
+"There was an error retrieving the data from the server. Please try again "
+"later."
+msgstr ""
+
+#: includes/admin/settings/premium.php:112
+msgid "Ticker View "
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:71
+msgid "Title"
+msgstr ""
+
+#: includes/widget/latest-post-widget.php:140
+msgid "True"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:242
+msgid ""
+"Two type Pagination with Next – Previous or Numeric type support with grid "
+"layout."
+msgstr ""
+
+#: includes/admin/class-bdpw-admin.php:40
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/admin/class-bdpw-admin.php:40
+msgid "Upgrade to PRO - Blog Designer"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:223
+msgid "Upgrate to Pro"
+msgstr ""
+
+#: includes/admin/settings/premium.php:137
+msgid "Use this plugin with Gutenberg easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:142
+msgid "Use this plugin with Visual Composer/WPBakery page builder easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:87
+msgid "View Pricing Options"
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:248
+msgid "View PRO Demo "
+msgstr ""
+
+#: includes/admin/settings/premium.php:142
+msgid "Visual Composer/WPBakery Page Builder Supports "
+msgstr ""
+
+#: includes/admin/bdpw-how-it-work.php:238
+msgid "Visual Composer/WPBakery Page Builder Supports."
+msgstr ""
+
+#: includes/admin/settings/premium.php:127
+msgid "Widgets"
+msgstr ""
+
+#: includes/admin/settings/premium.php:127
+msgid "WordPress Widgets to your sidebars."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport"
+msgstr ""
+
+#: includes/admin/settings/premium.php:107
+msgid "WP Templating Features "
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:249
+msgid "WPOS Blocks"
+msgstr ""
+
+#: includes/admin/settings/premium.php:107
+msgid "You can modify plugin html/designs in your current theme."
+msgstr ""

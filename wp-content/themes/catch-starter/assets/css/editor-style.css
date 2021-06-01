@@ -1,0 +1,1043 @@
+/*
+Theme Name: Catch Starter
+Description: Used to style the TinyMCE editor.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Content
+ *    8.1 - Posts and pages
+ * 9.0 - Media
+ *    9.1 - Captions
+ *    9.2 - Galleries
+ * 10.0 - Media Queries
+ *    10.1 - >= 1200px
+ *    10.2 - >= 1600px
+ * 11.0 - Colors
+ * 12.0 - RTL
+ */
+
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	margin: 30px 25px;
+	max-width: 1040px;
+	vertical-align: baseline;
+}
+
+
+/**
+ * 2.0 - Typography
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: Arial, Tahoma, sans-serif;
+	line-height: 1.647058823529412;
+}
+
+.drop-cap:first-letter {
+	font-size: 96px;
+	font-size: 6rem;
+}
+
+h1,
+.mce-content-body h1 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.325;
+	margin-top: 1.0208333125em;
+	margin-bottom: 0.4375em;
+}
+
+h2,
+.mce-content-body h2 {
+	font-size: 28px;
+	font-size: 1.75rem;
+	line-height: 1.3611;
+	margin-top: 1.361em;
+	margin-bottom: 0.583em;
+}
+
+h3,
+.mce-content-body h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	margin-top: 1.633em;
+	margin-bottom: 0.700em;
+}
+
+h4,
+.mce-content-body h4 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.4583;
+	margin-top: 1.885em;
+	margin-bottom: 0.808em;
+}
+
+h5,
+.mce-content-body h5 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.55;
+	margin-top: 2.227em;
+	margin-bottom: 0.955em;
+}
+
+h6,
+.mce-content-body h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-top: 2.722em;
+	margin-bottom: 1.167em;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	margin: 0 0 2.059em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: 3px solid;
+	margin: 0 0 1.75em;
+	overflow: hidden;
+	padding: 0 0 0 1.235em;
+}
+
+blockquote p {
+	margin-bottom: 1.235em;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+address {
+	font-style: normal;
+	margin: 0 0 2.882em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Inconsolata, monospace;
+}
+
+pre {
+	margin: 0 0 2.059em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.75em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+mark,
+ins,
+code {
+	padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #eee;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+/**
+ * 3.0 - Elements
+ */
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin: 0 0 2.059em;
+}
+
+ul,
+ol {
+	margin: 0 0 2.059em 1.235em;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	margin: 0 0 2.059em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.235em 2.059em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+	vertical-align: middle;
+}
+
+del {
+	opacity: 0.8;
+}
+
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+    border: 1px solid;
+}
+
+table,
+.mce-item-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 2.059em;
+    table-layout: fixed;
+    /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption,
+.mce-item-table caption {
+	border-width: 1px 1px 0 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th,
+.mce-item-table th,
+td,
+.mce-item-table td {
+	border-width: 0 1px 1px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+thead th {
+	font-weight: 700;
+}
+
+th a {
+	text-decoration: none;
+}
+
+caption,
+th,
+td {
+    padding: 0.412em 0.824em;
+}
+
+.displaynone {
+	display: none;
+}
+
+.displayblock {
+	display: block;
+}
+
+
+/**
+ * 4.0 - Padding/Margin
+ */
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: 11px 30px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	padding: 14px 21px;
+}
+
+
+/**
+ * 5.0 - Forms
+ */
+
+input {
+	line-height: normal;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: none;
+	text-decoration: none;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: thin dotted;
+	outline-offset: -4px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	background: transparent;
+	border: 1px solid;
+	border-radius: 3px;
+	width: 100%;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+.post-password-form {
+	margin-bottom: 1.75em;
+}
+
+.post-password-form label {
+	display: block;
+	margin-bottom: 1.75em;
+	text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+	margin-top: 0.824em;
+}
+
+.post-password-form > :last-child {
+	margin-bottom: 0;
+}
+
+
+/**
+ * 6.0 - Navigation
+ */
+
+/**
+ * 6.1 - Links
+ */
+
+a {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+
+/**
+ * 7.0 - Alignments
+ */
+
+.alignleft {
+	float: left;
+	margin: 0.412em 2.059em 2.059em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.412em 0 2.059em 2.059em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto 2.059em;
+}
+
+
+/**
+ * 8.0 - Content
+ */
+
+/**
+ * 8.1 - Posts and pages
+ */
+
+.more-link {
+	clear: both;
+	display: block;
+	margin-top: 28px;
+	word-wrap: break-word;
+}
+
+.more-button {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 11px 30px;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+}
+
+.page-links a,
+.page-links > span {
+	border: 1px solid;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	height: 1.8461538462em;
+	line-height: 1.6923076923em;
+	margin-right: 0.3076923077em;
+	text-align: center;
+	text-decoration: none;
+	width: 1.8461538462em;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: none;
+	height: auto;
+	margin: 0;
+	padding-right: 0.6153846154em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.75em;
+}
+
+.entry-caption {
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 7px;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+
+/**
+ * 9.0 - Media
+ */
+
+.avatar {
+	border-radius: 50%;
+}
+
+.wp-smiley {
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+a img {
+	display: block;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+p > embed,
+p > iframe,
+p > object,
+p > video {
+	margin-bottom: 0;
+}
+
+
+/**
+ * 9.1 - Captions
+ */
+
+.wp-caption {
+	margin-bottom: 1.75em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+	font-style: italic;
+	text-align: center;
+}
+
+
+/**
+ * 9.2 - Galleries
+ */
+
+.gallery {
+	margin: 0 -1.1666667% 1.75em;
+}
+
+.gallery-item {
+	display: inline-block;
+	max-width: 33.33%;
+	padding: 0 1.1400652% 2.2801304%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	display: block;
+	font-style: italic;
+	padding-top: 7px;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+/**
+ * 10.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+
+/**
+ * 10.1 - >= 1366px
+ */
+
+@media screen and (min-width: 85.375em) {
+	body,
+	button,
+	input,
+	select,
+	textarea {
+		font-size: 17px;
+		font-size: 1.0625rem;
+	}
+
+	h1,
+	.mce-content-body h1 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h2,
+	.mce-content-body h2 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+
+	h3,
+	.mce-content-body h3 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	h4,
+	.mce-content-body h4 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+
+	h5,
+	.mce-content-body h5 {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+
+	h6,
+	.mce-content-body h6 {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+
+	caption,
+	th,
+	td {
+	    padding: 14px 28px;
+	}
+}
+
+
+/**
+ * 10.2 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+	h1,
+	.mce-content-body h1 {
+		font-size: 48px;
+		font-size: 3rem;
+	}
+
+	h2,
+	.mce-content-body h2 {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+
+	h3,
+	.mce-content-body h3 {
+		font-size: 30px;
+		font-size: 1.875rem;
+	}
+
+	h4,
+	.mce-content-body h4 {
+		font-size: 26px;
+		font-size: 1.635rem;
+	}
+}
+
+
+/**
+ * 11.0  - >= Colors
+ */
+
+/* Background Color */
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+/* Secondary Background Color */
+hr,
+pre,
+tbody tr:nth-child(2n+1),
+.wp-caption .wp-caption-text {
+	background-color: #f6f6f6;
+}
+
+/* Border Color (10% of main text color) */
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.page-links a,
+.page-links > span,
+blockquote {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Main Text Color */
+body,
+button,
+input,
+select,
+textarea {
+	color: #000;
+}
+
+/* Secondary Link Color (70% of main text color) */
+blockquote cite,
+blockquote small,
+.entry-caption,
+.wp-caption .wp-caption-text,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/* Button Background Color */
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.page-links a {
+    background-color: #000;
+}
+
+/* Button Text Color */
+.page-links a,
+.page-links a:hover,
+.page-links a:focus,
+mark,
+ins,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+.button:hover,
+.button:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	color: #fff;
+}
+
+/* Button Hover Background Color */
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.section .more-button:hover,
+.section .more-button:focus
+mark,
+ins,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.page-links a:hover,
+.page-links a:focus {
+	background-color: #039be5;
+}
+
+/* Link Color */
+a,
+.required {
+	color: #039be5;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	border-color: #039be5;
+}
+
+/* Link Hover & Heading Text Color */
+a:hover,
+a:focus,
+a:active,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page-links > .page-links-title,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	color: #000;
+}
+
+/**
+ * 12.0 - RTL
+ */
+
+.rtl .drop-cap::first-letter {
+    float: right;
+    margin: 6px  6px -3px  16px;
+}
+
+.rtl blockquote {
+	border-left: 0;
+	border-right: 3px solid;
+	padding: 0 1.235em 0 0;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 1.647em 2.059em 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+    margin-bottom: 0;
+}
+
+.rtl th,
+.rtl .mce-item-table th,
+.rtl td,
+.rtl .mce-item-table td {
+	text-align: right;
+}
