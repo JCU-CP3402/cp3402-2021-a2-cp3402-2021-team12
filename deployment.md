@@ -41,17 +41,12 @@
 
 
 **Staging:**
-.
-.
-.
-.
-.
-.
+We used 000webhost for staging our site. [000webhost](https://in.000webhost.com/) is a free web host available for students and professionals alike.
 
 **Web Hosting:**
 
-Staging – (url)
-Production- (url)
+- Staging – [http://13.235.247.77/](http://13.235.247.77/)
+- Production- [http://65.2.128.222/](http://65.2.128.222/)
 
 **Project Management:**
 
